@@ -1,0 +1,536 @@
+    1  sudo curl -sSL https://gitlab.com/roybhaskar9/devops/raw/master/coding/chef/setupchefnode.sh | sh
+    2  exit
+    3  chef-client
+    4  apt update
+    5  sudo apt update
+    6  chef-client
+    7  lynx google.com
+    8  apt update
+    9  exit
+   10  sudo apt update
+   11  chef-client
+   12  lynx google.com
+   13  chef-client
+   14  systemctl status apache2
+   15  ip a
+   16  systemctl stop apache2
+   17  exit
+   18  chef-client
+   19  systemctl apache2 status
+   20  systemtl status apache2
+   21  systemctl status apache2
+   22  ip a
+   23  service apache2 status
+   24  history
+   25  chef-client
+   26  serive status apache2
+   27  service status apache2
+   28  service apache2 status
+   29  service stop apache2
+   30  systemctl stop apache2
+   31  service apache2 status
+   32  chef-client
+   33  service apache2 status
+   34  clear
+   35  chef-client
+   36  service apache2 start
+   37  chef-client
+   38  service apache2 stop
+   39  service apache2 start
+   40  service apache2 status
+   41  exit
+   42  chef-client
+   43  cd /tmp
+   44  ls
+   45  ls -lrta
+   46  chef-client
+   47  ls -lrta
+   48  chef-client
+   49  ls -lrta
+   50  cat file1
+   51  exit
+   52  chef-client
+   53  cd /var/www/home
+   54  cd /var/www
+   55  ;s
+   56  ls
+   57  cd html
+   58  ls
+   59  cat index.html
+   60  cd ..
+   61  history
+   62  cd /
+   63  chef-client
+   64  cd /var/www/html
+   65  ls
+   66  pwd
+   67  who am i
+   68  cd /
+   69  chef-client
+   70  clear
+   71  chef-client
+   72  cd /var/www/html
+   73  ls
+   74  service apache2 status
+   75  ip a
+   76  cd /
+   77  ls
+   78  chef-client
+   79  ip a
+   80  cd /var/www/html
+   81  ls
+   82  cat index.php
+   83  cat index.html
+   84  cd /
+   85  chef-client
+   86  cd /etc
+   87  ls
+   88  cd apache2
+   89  ls
+   90  vi apache2.conf
+   91  exit
+   92  chef-client
+   93  cd /var/www/html
+   94  ls
+   95  ip a
+   96  cd /
+   97  clear
+   98  chef-client
+   99  cd /var/www/
+  100  ls
+  101  cd html/
+  102  ls
+  103  vi index.php 
+  104  rm -f index*
+  105  ls
+  106  vi index.php
+  107  exit
+  108  chef-client
+  109  ls
+  110  chef-client
+  111  cd ..
+  112  ls
+  113  pwd
+  114  chef-client
+  115  ls
+  116  chef-client
+  117  exit
+  118  clear
+  119  chef-client
+  120  clear
+  121  chef-client
+  122  ls -lrta
+  123  clear
+  124  chef-client
+  125  ip a
+  126  cd /var/www
+  127  ls
+  128  cd html
+  129  ls
+  130  cd wordpress
+  131  ls
+  132  cat wp-config-sample.php
+  133  ls
+  134  cat wp-login.php
+  135  ls
+  136  clear
+  137  ls
+  138  vi index.php
+  139  clear
+  140  ls
+  141  cd wp-signup.php
+  142  cat wp-signup.php
+  143  ipa
+  144  ip a
+  145  ls
+  146  clear
+  147  ls
+  148  find anand123 *
+  149  clear
+  150  ls
+  151  mysql
+  152  vi wp-config-sample.php
+  153  cd /
+  154  clear
+  155  cd /var/www
+  156  cd html
+  157  cd wordpress
+  158  ls
+  159  vi wp-config-sample.php
+  160  cp wp-config-sample.php wp-config.php
+  161  rm wp-config.php
+  162  cp wp-config-sample.php wp-config.php
+  163  ls
+  164  rm wp-config-sample.php
+  165  ls
+  166  cp wp-config.php wp-config-sample.php
+  167  rm wp-config.php
+  168  vi wp-config-sample.php
+  169  systemctl status mysqld
+  170  servive mysql status
+  171  service mysql status
+  172  ls
+  173  mysql
+  174  mysql -u root p
+  175  mysql -u p root
+  176  ls
+  177  cat wp-settings.php
+  178  ls
+  179  grep anand *
+  180  cd wp-admin
+  181  ls
+  182  cat admin.php
+  183  ls
+  184  grep rootpassword *
+  185  grep anand *
+  186  ls
+  187  cd /user
+  188  ls
+  189  cat user
+  190  cd user
+  191  ls
+  192  vi admin.php
+  193  vi index.php
+  194  mysql -u root -p
+  195  cd /
+  196  systemctl start mysqld
+  197  service status mysql
+  198  history
+  199  service mysql status
+  200  cat /var/log/mysql.log
+  201  cd /var/log/
+  202  ls
+  203  cd mysql
+  204  ls
+  205  cat error.log
+  206  pwd
+  207  cat error.log
+  208  mysql -u root -p
+  209  cat error.log
+  210  localhost
+  211  ping localhost
+  212  cat error.log
+  213  ping localhost
+  214  cd /
+  215  systemctl start mysqld
+  216  yum install mysql-server
+  217  wget install mysql-server
+  218  wget apt-update
+  219  apt update
+  220  apt install mysql-server
+  221  systemctl start mysqld
+  222  service start mysqld
+  223  service apache2 status
+  224  service mysql restart
+  225  ip a
+  226  pwd
+  227  cd /var/www/
+  228  ls
+  229  chmod -R 777 html
+  230  sudo apt-get install mysql-server
+  231  mysql_secure_installation
+  232  service mysql restart
+  233  msql
+  234  msql -u p root
+  235  mysql -u root -p
+  236  cd html
+  237  ls
+  238  cd wordpress
+  239  ls
+  240  vi wp-config-sample.php
+  241  mv wp-config-sample_backup.php
+  242  mv wp-config-sample.php wp-config-sample_backup.php
+  243  vi wp-config-sample.php
+  244  service mysql restart
+  245  exit
+  246  service status mysql
+  247  service mysql status
+  248  mysql -u root rootpassword
+  249  mysql -u root -rootpassword
+  250  ip a
+  251  chef-client
+  252  exit
+  253  pwd
+  254  chef-client
+  255  mysql -u root -p
+  256  ip a
+  257  exit
+  258  clear
+  259  chef-client
+  260  cat /tmp/mysqlcommands
+  261  ls /tmp/mysqlcommands
+  262  pwd
+  263  cd /tmp
+  264  ls
+  265  cat mysqlcommands
+  266  vi mysqlcommands
+  267  ls
+  268  vi wp-config-sample.php
+  269  ls
+  270  cd /
+  271  chef-client
+  272  cd /tmp
+  273  ls
+  274  chmod 777 *
+  275  cd /
+  276  mysql -u root -p
+  277  ls
+  278  cd /tmp
+  279  ls
+  280  ls -lrta
+  281  cd /
+  282  mysql
+  283  service apache2 restart
+  284  service mysql restart
+  285  chef-client
+  286  cd /tmp
+  287  ls
+  288  cd /
+  289  mysql
+  290  mysql -u root -p
+  291  service restart mysql
+  292  service mysql restart
+  293  chef-client
+  294  clear
+  295  chef-client
+  296  clear
+  297  chef-client
+  298  mysql -u wordpressuser -p
+  299  cd /var/www/html
+  300  ls
+  301  cd wordpress
+  302  ls -lrta
+  303  vi wp-config.php
+  304  ip a
+  305  vi wp-config.php
+  306  service apache2 restart
+  307  vi wp-config.php
+  308  service mysql restart
+  309  ip a
+  310  mysql -u root -p
+  311  service mysql restart
+  312  service php restart
+  313  service php-mysql restart
+  314  cd /tmp
+  315  ls
+  316  rm *.*
+  317  ls
+  318  rm mysqlcommands
+  319  ls
+  320  cd /
+  321  mysql
+  322  mysql -u root -p
+  323  clear
+  324  chef-client
+  325  ls
+  326  mysql
+  327  service mysql restart
+  328  clear
+  329  chef-client
+  330  ip a
+  331  service restart apache2
+  332  service apache2 restart
+  333  mysql -u wordpressuser -p
+  334  service mysql restart
+  335  ip a
+  336  grep -r "My first PHP page" /*.*
+  337  grep -r "My first PHP page" /*
+  338  cd /var
+  339  ls
+  340  cd www
+  341  ls
+  342  cd html
+  343  ls
+  344  vi index.php
+  345  rm index.php
+  346  service apache2 restart
+  347  ip a
+  348  ls
+  349  cd wordpress
+  350  ls
+  351  rm wp-config-sample.php
+  352  cp wp-config.php wp-config-sample.php
+  353  vi wp-config.php
+  354  mysq
+  355  mysql
+  356  mysql -u root -p
+  357  service mysql restart
+  358  mysql -u root -p
+  359  exit
+  360  ls -lrta
+  361  cd /vagrant
+  362  ls
+  363  cd ..
+  364  cd /var/www/html
+  365  ls
+  366  cd wordpress
+  367  ls
+  368  vi wp-config.php
+  369  service apache2 restart
+  370  ip a
+  371  cd /
+  372  clear
+  373  chef-client
+  374  clear
+  375  chef-client
+  376  cd /tmp
+  377  ls
+  378  clear
+  379  chef-client
+  380  clear
+  381  chef-client
+  382  ip a
+  383  clear
+  384  cd /
+  385  chef-client
+  386  clear
+  387  chef-client
+  388  clear
+  389  chef-client
+  390  cd /var/html/ww
+  391  cd /var/www/html
+  392  ls
+  393  cd grav-admin
+  394  ls
+  395  ls -lrta
+  396  vi index.php
+  397  cp index.php /var/www/html
+  398  ls
+  399  ip a
+  400  exit
+  401  wget https://gitlab.com/roybhaskar9/devops/raw/master/coding/chef/chefwordpress/files/default/mysqlcommands
+  402  wget https://gitlab.com/roybhaskar9/devops/raw/master/coding/chef/chefwordpress/files/default/wp-config-sample.php
+  403  history
+  404  cd /tmp
+  405  ls
+  406  apt remove apache2 mysql-server
+  407  cd /var/www
+  408  ls
+  409  cd html
+  410  ls
+  411  rm -R wordpress
+  412  cd ..
+  413  ls
+  414  history
+  415  cd /
+  416  ls
+  417  pwd
+  418  cd vagrant
+  419  ls
+  420  cd ..
+  421  exit
+  422  cd /tmp
+  423  ls
+  424  cd ..
+  425  cd /var/www
+  426  ls
+  427  cd html
+  428  ls
+  429  cd ..
+  430  ls
+  431  history
+  432  ls
+  433  cd /tmp
+  434  ls
+  435  cd ..
+  436  exit
+  437  chef-client
+  438  mysql
+  439  service apache2 restart
+  440  service mysql restart
+  441  chef-client
+  442  ip a
+  443  cd /var/www/html/wordpress
+  444  ls
+  445  vi wp-config.php
+  446  service apache2 restart
+  447  mysql
+  448  chef-client
+  449  cd /var/www/html
+  450  ls
+  451  vi index.php
+  452  cd wordpress
+  453  ls
+  454  cd ..
+  455  rename index.php index1.php
+  456  mv index.php index1.php
+  457  mv wordpress/index.php index.php
+  458  mysql -u root -p
+  459  mysql
+  460  cd /
+  461  mysql
+  462  cd /var/www/html
+  463  ls
+  464  cp index.php wordpress/
+  465  ls
+  466  rm index.php
+  467  mysql
+  468  chef-client
+  469  cd /tmp
+  470  cd /var/www/html
+  471  ls
+  472  rm index1.php
+  473  rm -r wordpress
+  474  ls
+  475  clear
+  476  chef-client
+  477  mysql
+  478  cd wordpress
+  479  ls
+  480  vi wp-config.php
+  481  service apache2 restart
+  482  ip a
+  483  vi wp-config.php
+  484  service apache2 restart
+  485  chef-client
+  486  mysql
+  487  vi wp-config.php
+  488  service apache2 restart
+  489  service mysql restart
+  490  ls
+  491  rm wp-config-sample.php
+  492  cp wp-config.php wp-config-sample.php
+  493  service apache2 restart
+  494  clear
+  495  ls
+  496  vi wp-config.php
+  497  msql
+  498  cd /tmp
+  499  ls
+  500  rm databasecreated
+  501  cd /
+  502  chef-client
+  503  mysql
+  504  ip a
+  505  service apache2 restart
+  506  mysql
+  507  service apache2 restart
+  508  service mysql restart
+  509  cd /tmp
+  510  ls
+  511  rm *.*
+  512  ls
+  513  rm -rf *
+  514  ls
+  515  cd ..
+  516  chef-client
+  517  exit
+  518  cd /tmp
+  519  ls
+  520  mysql
+  521  cd /var/www/html
+  522  ls
+  523  cd wordpress
+  524  ls
+  525  cd /
+  526  chef-client
+  527  ip a
+  528  exit
+  529  clear
+  530  chef-client
+  531  cat /etc/myserver.conf
+  532  xit
+  533  exit
+  534  ls
+  535  pwd
+  536  history > history.txt
